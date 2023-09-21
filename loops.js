@@ -34,3 +34,10 @@ let languages = ["Tamil","Hindi","Malayalam","Telungu"];
 for (let lang in languages){
     console.log(lang,languages[lang]);
 }
+// for in loop use array
+
+let programming = [ "JAVA","PYTHON","JAVASCRIPT","C++","C","DOTNET","PHP"];
+
+for (let easy in programming){
+    console.log(easy,programming[easy]);
+}
