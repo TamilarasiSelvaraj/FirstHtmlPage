@@ -5,11 +5,11 @@
    console.log("Number#"+i);
    }
 //For loop 
-   /*let fruits=["apple","orrange","mango","grapes"];
+   let fruits=["apple","orrange","mango","grapes"];
 
    for (let i = 0;i<fruits.length;i++){
     console.log (i,fruits[i]);
-   }*/
+   }
    //while loop
    let days=["sunday","monday","tuesday","wednesday","thursday","friday","saturday"];
    let a=0;
@@ -34,6 +34,15 @@ let languages = ["Tamil","Hindi","Malayalam","Telungu"];
 for (let lang in languages){
     console.log(lang,languages[lang]);
 }
+
+// Use for loop in array
+
+let chocolates= ["Milkybar","DairyMilks","Kitkat","Fivestar"]
+
+  for  (let x=0; x < chocolates.length;x++){
+    console.log(x);
+    
+  }
 // for in loop use array
 
 let programming = [ "JAVA","PYTHON","JAVASCRIPT","C++","C","DOTNET","PHP"];
